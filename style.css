@@ -89,12 +89,12 @@ a {
 }
 
 .hero h1 {
-  margin: 18px 0 0;
-  max-width: 860px;
-  font-size: clamp(72px, 10.6vw, 136px);
+  margin: 20px 0 0;
+  max-width: 760px;
+  font-size: clamp(54px, 7.4vw, 96px);
   font-weight: 560;
-  letter-spacing: -.06em;
-  line-height: .88;
+  letter-spacing: -.05em;
+  line-height: .92;
 }
 
 .name-dsk,
@@ -115,7 +115,7 @@ a {
 
 .lead {
   max-width: 620px;
-  margin: 34px 0 0;
+  margin: 28px 0 0;
   color: #d4d2cc;
   font-size: clamp(21px, 2.45vw, 32px);
   line-height: 1.35;
@@ -393,7 +393,7 @@ footer {
   }
 
   .hero h1 {
-    font-size: clamp(64px, 22vw, 96px);
+    font-size: clamp(48px, 16vw, 72px);
   }
 
   .orbit {
