@@ -96,8 +96,20 @@ a {
   line-height: .8;
 }
 
-.dot {
+.name-dsk,
+.name-mira {
+  display: inline-block;
+}
+
+.slash {
+  display: inline-block;
+  margin: 0 .12em;
   color: var(--accent);
+  font-weight: 430;
+}
+
+.name-mira {
+  color: #c9c7c1;
 }
 
 .lead {
