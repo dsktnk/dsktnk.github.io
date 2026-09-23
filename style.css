@@ -97,6 +97,46 @@ a {
   line-height: .92;
 }
 
+.hero-title {
+  position: relative;
+  width: fit-content;
+  min-height: 1em;
+  isolation: isolate;
+}
+
+.hero-title-text {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  opacity: 1;
+}
+
+.hero-title.is-animating .hero-title-text {
+  opacity: 0;
+}
+
+.hero-title.is-settled .hero-title-text {
+  opacity: 1;
+  transition: opacity .24s ease;
+}
+
+#hero-particles {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  width: 128%;
+  height: 220%;
+  transform: translate(-50%, -50%);
+  overflow: visible;
+  pointer-events: none;
+}
+
+.hero-title.is-settled #hero-particles {
+  opacity: 0;
+  transition: opacity .3s ease;
+}
+
 .name-dsk,
 .name-mira {
   display: inline-block;
@@ -429,4 +469,12 @@ footer {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .card, .card::after, .arrow { transition: none; }
+
+  .hero-title-text {
+    opacity: 1 !important;
+  }
+
+  #hero-particles {
+    display: none;
+  }
 }
