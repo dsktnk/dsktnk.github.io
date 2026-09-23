@@ -6,8 +6,8 @@
   <meta name="description" content="DSK — personal web index. Projects, systems, journals and experiments.">
   <meta name="theme-color" content="#08090b">
   <title>DSK — Personal Web Index</title>
-  <link rel="stylesheet" href="./style.css?v=20260923-2">
-  <script src="./script.js?v=20260923-2" defer></script>
+  <link rel="stylesheet" href="./style.css?v=20260923-particles-1">
+  <script src="./script.js?v=20260923-particles-1" defer></script>
 </head>
 <body>
   <div class="noise" aria-hidden="true"></div>
@@ -16,7 +16,12 @@
     <header class="hero">
       <div class="hero-copy">
         <p class="eyebrow">PERSONAL WEB INDEX / 2026</p>
-        <h1><span class="name-dsk">DSK</span><span class="slash">/</span><span class="name-mira">MIRA</span></h1>
+        <h1 class="hero-title" aria-label="DSK / MIRA">
+          <canvas id="hero-particles" aria-hidden="true"></canvas>
+          <span class="hero-title-text">
+            <span class="name-dsk">DSK</span><span class="slash">/</span><span class="name-mira">MIRA</span>
+          </span>
+        </h1>
         <p class="lead">
           A small entrance to the places we build, keep and revisit.
         </p>
