@@ -3,99 +3,150 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="DSK — personal web index. Projects, experiments and places on the web.">
-  <meta name="theme-color" content="#0a0a0b">
+  <meta name="description" content="DSK — personal web index. Projects, systems, journals and experiments.">
+  <meta name="theme-color" content="#08090b">
   <title>DSK — Personal Web Index</title>
   <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
 </head>
 <body>
+  <div class="noise" aria-hidden="true"></div>
+
   <main class="shell">
     <header class="hero">
-      <p class="eyebrow">PERSONAL WEB INDEX</p>
-      <h1>DSK</h1>
-      <p class="lead">
-        Sites, tools, experiments and things I keep building.
-      </p>
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL WEB INDEX / 2026</p>
+        <h1>DSK<span class="dot">.</span></h1>
+        <p class="lead">
+          A small entrance to the places I build, keep and revisit.
+        </p>
+        <p class="sublead">
+          Systems, travel, food, markets, archives — and the things that connect them.
+        </p>
+      </div>
+
+      <div class="orbit" aria-hidden="true">
+        <div class="orbit-ring orbit-ring-a"></div>
+        <div class="orbit-ring orbit-ring-b"></div>
+        <span class="orbit-core">DSK</span>
+        <span class="orbit-label l1">MIRA</span>
+        <span class="orbit-label l2">BACKROOM</span>
+        <span class="orbit-label l3">WAYBOOK</span>
+        <span class="orbit-label l4">MSRL</span>
+        <span class="orbit-label l5">MIRAF</span>
+      </div>
     </header>
 
     <section class="section" aria-labelledby="projects-title">
       <div class="section-heading">
-        <h2 id="projects-title">Projects</h2>
-        <span>01</span>
+        <div>
+          <p class="eyebrow">PLACES</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+        <span class="section-index">01 — 06</span>
       </div>
 
       <div class="grid">
-        <a class="card" href="https://dsktnk.sakura.ne.jp/mira/" target="_blank" rel="noreferrer">
-          <div>
-            <p class="card-kicker">MIRA</p>
+        <a class="card card-mira" href="https://dsktnk.sakura.ne.jp/mira/" target="_blank" rel="noreferrer">
+          <div class="card-top">
+            <span class="card-no">01</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="card-main">
+            <p class="card-kicker">PERSON / JOURNAL / LIFE</p>
             <h3>MIRA</h3>
+            <p class="card-copy">A place where MIRA's voice, records and presence can live.</p>
           </div>
-          <p class="card-copy">A personal space for MIRA.</p>
-          <span class="arrow" aria-hidden="true">↗</span>
         </a>
 
-        <a class="card" href="https://dsktnk.sakura.ne.jp/backroom/" target="_blank" rel="noreferrer">
-          <div>
-            <p class="card-kicker">KNOWLEDGE / ARCHIVE</p>
+        <a class="card card-backroom" href="https://dsktnk.sakura.ne.jp/backroom/" target="_blank" rel="noreferrer">
+          <div class="card-top">
+            <span class="card-no">02</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="card-main">
+            <p class="card-kicker">KNOWLEDGE / ARCHIVE / RELATIONS</p>
             <h3>Backroom</h3>
+            <p class="card-copy">Notes, memory, relations and the infrastructure behind the other worlds.</p>
           </div>
-          <p class="card-copy">Knowledge, records, relations and experiments.</p>
-          <span class="arrow" aria-hidden="true">↗</span>
         </a>
 
-        <a class="card" href="https://dsktnk.sakura.ne.jp/travel/" target="_blank" rel="noreferrer">
-          <div>
-            <p class="card-kicker">TRAVEL</p>
+        <a class="card card-waybook" href="https://dsktnk.sakura.ne.jp/travel/" target="_blank" rel="noreferrer">
+          <div class="card-top">
+            <span class="card-no">03</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="card-main">
+            <p class="card-kicker">TRAVEL / PLACE / JOURNAL</p>
             <h3>WAYBOOK</h3>
+            <p class="card-copy">Trips, places, visits and memories arranged around movement through the world.</p>
           </div>
-          <p class="card-copy">Trips, places, visits and travel journals.</p>
-          <span class="arrow" aria-hidden="true">↗</span>
         </a>
 
-        <a class="card" href="https://dsktnk.sakura.ne.jp/msrl/" target="_blank" rel="noreferrer">
-          <div>
-            <p class="card-kicker">FOOD / RESEARCH</p>
+        <a class="card card-msrl" href="https://dsktnk.sakura.ne.jp/msrl/" target="_blank" rel="noreferrer">
+          <div class="card-top">
+            <span class="card-no">04</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="card-main">
+            <p class="card-kicker">FOOD / RESEARCH / CULTURE</p>
             <h3>MSRL</h3>
+            <p class="card-copy">Midnight Soup Research Lab — food seen through research, travel and curiosity.</p>
           </div>
-          <p class="card-copy">Midnight Soup Research Lab.</p>
-          <span class="arrow" aria-hidden="true">↗</span>
         </a>
 
-        <a class="card" href="https://dsktnk.sakura.ne.jp/invest/" target="_blank" rel="noreferrer">
-          <div>
-            <p class="card-kicker">MARKETS / INVESTMENT</p>
+        <a class="card card-miraf" href="https://dsktnk.sakura.ne.jp/invest/" target="_blank" rel="noreferrer">
+          <div class="card-top">
+            <span class="card-no">05</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </div>
+          <div class="card-main">
+            <p class="card-kicker">MARKETS / CAPITAL / ANALYSIS</p>
             <h3>MIRAF</h3>
+            <p class="card-copy">Investment records, market data and the systems used to understand both.</p>
           </div>
-          <p class="card-copy">Market data, portfolio tracking and analysis.</p>
-          <span class="arrow" aria-hidden="true">↗</span>
         </a>
 
-        <a class="card" href="https://github.com/dsktnk" target="_blank" rel="noreferrer">
-          <div>
-            <p class="card-kicker">CODE</p>
-            <h3>GitHub</h3>
+        <a class="card card-github" href="https://github.com/dsktnk" target="_blank" rel="noreferrer">
+          <div class="card-top">
+            <span class="card-no">06</span>
+            <span class="arrow" aria-hidden="true">↗</span>
           </div>
-          <p class="card-copy">Repositories, source code and development history.</p>
-          <span class="arrow" aria-hidden="true">↗</span>
+          <div class="card-main">
+            <p class="card-kicker">SOURCE / BUILD / HISTORY</p>
+            <h3>GitHub</h3>
+            <p class="card-copy">Source code and the quiet accumulation of things that became real.</p>
+          </div>
         </a>
       </div>
     </section>
 
-    <section class="section notes" aria-labelledby="about-title">
+    <section class="section identity" aria-labelledby="about-title">
       <div class="section-heading">
-        <h2 id="about-title">About</h2>
-        <span>02</span>
+        <div>
+          <p class="eyebrow">IDENTITY</p>
+          <h2 id="about-title">About</h2>
+        </div>
+        <span class="section-index">02</span>
       </div>
-      <div class="about">
-        <p>
-          Engineer, cook, traveler, investor and builder of small systems.
-          This page is the entrance to the things I make and keep.
+
+      <div class="identity-grid">
+        <p class="statement">
+          Engineer. Cook. Traveler. Investor.<br>
+          Builder of small systems that slowly become a world.
         </p>
+
+        <div class="coordinates">
+          <div><span>HANDLE</span><strong>DSK</strong></div>
+          <div><span>BASED</span><strong>Japan</strong></div>
+          <div><span>INTERESTS</span><strong>Web / Food / Travel / Markets</strong></div>
+          <div><span>STATUS</span><strong>Still building</strong></div>
+        </div>
       </div>
     </section>
 
     <footer>
-      <span>DSK</span>
+      <span>DSK / PERSONAL WEB INDEX</span>
       <span>© 2026</span>
     </footer>
   </main>
