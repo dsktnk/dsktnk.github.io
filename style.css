@@ -91,7 +91,7 @@ a {
 .hero h1 {
   margin: 20px 0 0;
   max-width: 760px;
-  font-size: clamp(54px, 7.4vw, 96px);
+  font-size: clamp(62px, 8.4vw, 108px);
   font-weight: 560;
   letter-spacing: -.05em;
   line-height: .92;
@@ -433,7 +433,7 @@ footer {
   }
 
   .hero h1 {
-    font-size: clamp(48px, 16vw, 72px);
+    font-size: clamp(54px, 18vw, 80px);
   }
 
   .orbit {
