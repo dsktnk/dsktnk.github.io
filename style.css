@@ -68,7 +68,7 @@ a {
   min-height: 700px;
   padding: 112px 0 94px;
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(320px, .75fr);
+  grid-template-columns: minmax(0, 1.12fr) minmax(340px, .88fr);
   align-items: end;
   gap: 64px;
   border-bottom: 1px solid var(--line);
@@ -89,11 +89,12 @@ a {
 }
 
 .hero h1 {
-  margin: 16px 0 0;
-  font-size: clamp(92px, 15vw, 188px);
+  margin: 18px 0 0;
+  max-width: 860px;
+  font-size: clamp(72px, 10.6vw, 136px);
   font-weight: 560;
-  letter-spacing: -.075em;
-  line-height: .8;
+  letter-spacing: -.06em;
+  line-height: .88;
 }
 
 .name-dsk,
@@ -103,7 +104,7 @@ a {
 
 .slash {
   display: inline-block;
-  margin: 0 .12em;
+  margin: 0 .18em;
   color: var(--accent);
   font-weight: 430;
 }
@@ -113,8 +114,8 @@ a {
 }
 
 .lead {
-  max-width: 650px;
-  margin: 42px 0 0;
+  max-width: 620px;
+  margin: 34px 0 0;
   color: #d4d2cc;
   font-size: clamp(21px, 2.45vw, 32px);
   line-height: 1.35;
@@ -131,7 +132,7 @@ a {
 
 .orbit {
   position: relative;
-  width: min(34vw, 390px);
+  width: min(36vw, 410px);
   aspect-ratio: 1;
   justify-self: end;
   margin-bottom: 4px;
@@ -392,7 +393,7 @@ footer {
   }
 
   .hero h1 {
-    font-size: clamp(78px, 29vw, 128px);
+    font-size: clamp(64px, 22vw, 96px);
   }
 
   .orbit {
